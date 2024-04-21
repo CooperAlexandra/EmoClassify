@@ -2,6 +2,8 @@
 
 ## URL: https://emoclassify-hyghbgxbyhctyncoiztwoh.streamlit.app/
 
+Используем бесплатный хостинг от Streamlit, который, к сожалению, не выдерживает нагрузку. Для ознакомления рекомендуем посмотреть видео демонстрации (presa.mp4)
+
 ### Распознавание эмоций в аудио файле 
 (/voice_model/combine_datasets.ipynb & /voice_model/model.ipynb)
 
