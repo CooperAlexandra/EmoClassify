@@ -1,5 +1,7 @@
 # EmoClassify
 
+## URL: https://emoclassify-hyghbgxbyhctyncoiztwoh.streamlit.app/
+
 ### Распознавание эмоций в аудио файле 
 (/voice_model/combine_datasets.ipynb & /voice_model/model.ipynb)
 
