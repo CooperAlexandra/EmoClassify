@@ -16,3 +16,4 @@ Flask
 flask-cors
 librosa
 tensorflow
+python-docx
