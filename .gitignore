@@ -1,0 +1,14 @@
+.cache
+/backend/__pycache__
+/callback/__pycache__
+/voice_model/CREMA-D
+/voice_model/RAVDESS
+/voice_model/SAVEE
+/voice_model/TESS
+/voice_model/mfccs.pickle
+/voice_model/y.pickle
+/voice_model/combined_all4.csv
+/voice_model/combined_all4_balanced.csv
+.env
+notebook.ipynb
+video.ipynb

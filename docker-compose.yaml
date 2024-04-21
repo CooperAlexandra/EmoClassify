@@ -1,0 +1,25 @@
+version: '3'
+services:
+  api:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Docker/api.Dockerfile
+      args:
+        HOST_ADRESS: ${HOST_ADRESS}
+        BACKEND_PORT: ${BACKEND_PORT}
+    image: api:0.0.1
+    restart: always
+
+  webapp:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Docker/webapp.Dockerfile
+    ports:
+      - '8501:8501'
+    image: webapp:0.0.1
+    restart: always
+
