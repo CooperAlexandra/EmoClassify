@@ -14,3 +14,4 @@ pydub
 streamlit
 Flask
 flask-cors
+librosa
